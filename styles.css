@@ -1,0 +1,26 @@
+body {
+	background-color: rgb(197, 197, 197);
+}
+.board {
+	position:relative;
+	height:500px;
+	width:500px;
+	margin: 0 auto;
+	background-color:white;
+}
+.tile {
+	float:left;
+	height:8px;
+	width:8px;
+	border:1px solid rgb(197, 197, 197);
+
+}
+.snake {
+	background-color: black;
+}
+.apple {
+	background-color: red;
+}
+.segment {
+	background-color: grey;
+}
